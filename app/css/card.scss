@@ -1,0 +1,116 @@
+@use "tailwindcss";
+
+:root {
+  --foreground-rgb: 244, 247, 251;
+
+  /* Paleta definitiva */
+  --color-sky: #8ecae6;
+  --color-cyan: #219ebc;
+  --color-navy: #023047;
+  --color-yellow: #ffb703;
+  --color-orange: #fb8500;
+
+  /* Alias semánticos */
+  --color-background: #06111f;
+  --color-background-soft: #09182b;
+  --color-surface: #0a1830;
+  --color-surface-2: #0d1d38;
+  --color-surface-3: #102445;
+  --color-border: rgba(33, 158, 188, 0.28);
+  --color-border-strong: rgba(142, 202, 230, 0.4);
+
+  --color-text: #f4f7fb;
+  --color-text-soft: rgba(244, 247, 251, 0.72);
+  --color-title: #ffffff;
+
+  --color-brand: #219ebc;
+  --color-brand-strong: #8ecae6;
+  --color-accent: #ffb703;
+  --color-accent-strong: #fb8500;
+
+  --hero-glow: rgba(251, 133, 0, 0.16);
+  --hero-glow-soft: rgba(33, 158, 188, 0.14);
+
+  /* =========================================================
+     Hero palette extendida
+     Inspirada en la referencia visual compartida
+     Se agrega sin reemplazar la paleta actual
+  ========================================================= */
+  --color-hero-bg: #050b1d;
+  --color-hero-bg-deep: #070f2a;
+  --color-hero-panel: #081133;
+  --color-hero-panel-border: rgba(70, 76, 200, 0.45);
+
+  --color-hero-grid: rgba(88, 76, 190, 0.18);
+  --color-hero-grid-strong: rgba(110, 86, 255, 0.24);
+  --color-hero-glow-purple: rgba(123, 44, 255, 0.22);
+  --color-hero-glow-pink: rgba(255, 60, 172, 0.16);
+
+  --color-hero-white: #f5f7fb;
+  --color-hero-white-soft: rgba(245, 247, 251, 0.78);
+
+  --color-hero-pink: #ff3cac;
+  --color-hero-pink-strong: #ff4fb3;
+  --color-hero-pink-soft: rgba(255, 60, 172, 0.12);
+
+  --color-hero-cyan: #20f0c7;
+  --color-hero-cyan-strong: #00f5d4;
+  --color-hero-cyan-soft: rgba(32, 240, 199, 0.14);
+
+  --color-hero-violet: #8b5cf6;
+  --color-hero-violet-strong: #7b2cff;
+
+  --color-hero-code-keyword: #ff38b5;
+  --color-hero-code-property: #f8fafc;
+  --color-hero-code-string: #ffd54a;
+  --color-hero-code-boolean: #ff9f1c;
+  --color-hero-code-function: #00f5d4;
+  --color-hero-code-number: #ffd166;
+  --color-hero-code-muted: rgba(245, 247, 251, 0.72);
+
+  --color-hero-window-red: #ff6b6b;
+  --color-hero-window-yellow: #ff9f1c;
+  --color-hero-window-green: #c7f9cc;
+
+  --color-hero-button-gradient-start: #ff3cac;
+  --color-hero-button-gradient-end: #7b2cff;
+  --color-hero-button-border: rgba(168, 85, 247, 0.55);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 244, 247, 251;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background:
+    radial-gradient(circle at top, rgba(142, 202, 230, 0.08), transparent 22%),
+    radial-gradient(circle at 30% 20%, rgba(255, 183, 3, 0.08), transparent 18%),
+    linear-gradient(180deg, #07101f 0%, #06111f 45%, #081426 100%);
+}
+
+#sticky-card-1 {
+  --index: 1;
+}
+
+#sticky-card-2 {
+  --index: 2;
+}
+
+#sticky-card-3 {
+  --index: 3;
+}
+
+#sticky-card-4 {
+  --index: 4;
+}
+
+.sticky-card {
+  top: calc(var(--index) * 4rem);
+}

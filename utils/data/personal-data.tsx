@@ -1,0 +1,20 @@
+// @ts-nocheck
+export const personalData = {
+  name: "JUAN CARLOS ZEPEDA",
+  nameShort: "Juan Carlos",
+  profile: '/juancarloszepeda-profile.png',
+  designation: "Full Stack Developer",
+  description: "Full Stack Developer with strong experience building responsive, scalable and business-focused web applications from frontend to backend. Expert in React, Next.js, Node.js, .NET, C#, and modern architectures. I specialize in end-to-end solutions, API design, database management, creating high-impact user experiences, and using AI tools to accelerate delivery and innovation.",
+  email: 'ingenierozepeda@gmail.com',
+  phone: '+52 1 722 791 4217',
+  address: 'Toluca, Estado de México, México',
+  github: 'https://github.com/programandoconvalor?tab=repositories',
+  facebook: '',
+  linkedIn: 'https://www.linkedin.com/in/juan-carlos-zepeda-bb25151b5/',
+  twitter: '',
+  stackOverflow: '',
+  leetcode: '',
+  devUsername: 'juan-carlos-zepeda',
+  resume: '#',
+  meWhatsApp: 'https://wa.me/5217227914217',
+}
