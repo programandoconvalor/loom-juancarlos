@@ -2,5 +2,3 @@
 *.bat text eol=crlf
 *.cmd text eol=crlf
 *.ps1 text eol=crlf
-public/image/video_JC.mp4 filter=lfs diff=lfs merge=lfs -text
-public/image/Video_JC_Codigo.mp4 filter=lfs diff=lfs merge=lfs -text

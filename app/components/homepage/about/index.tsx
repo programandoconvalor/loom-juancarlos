@@ -53,7 +53,7 @@ export default function AboutSection() {
                 <div className="aspect-video">
                   <video
                     ref={leftVideoRef}
-                    src="/image/video_JC.mp4"
+                    src="/image/video_JC_web.mp4"
                     className="h-full w-full object-cover"
                     playsInline
                     preload="metadata"
@@ -86,7 +86,7 @@ export default function AboutSection() {
                 <div className="aspect-video">
                   <video
                     ref={rightVideoRef}
-                    src="/image/Video_JC_Codigo.mp4"
+                    src="/image/Video_JC_Codigo_web.mp4"
                     className="h-full w-full object-cover"
                     playsInline
                     preload="metadata"
